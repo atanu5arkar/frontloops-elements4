@@ -1,0 +1,77 @@
+body {
+    background-color: #82009c;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.base {
+    display: flex;
+    gap: 100px;
+    width: 640px;
+    margin: 150px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.steps {
+    flex-shrink: 0;
+}
+
+.step1, .step2, .step3 {
+    display: flex;
+    align-items: center;
+}
+
+.step2 {
+    padding: 12px 0;
+}
+
+.num {
+    padding: 3px 8px;
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #e6e6e6;
+    color: #6d6d6d;
+}
+
+.name {
+    padding-left: 10px;
+    color: #6d6d6d;
+}
+
+.details2, .details3, .confirmation {
+    display: none;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #eeeeee;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+}
+
+.back {
+    margin-right: 12px;
+}
+
+.confirmation {font-weight: 400;}
+
+/* utility class */
+
+.activeNum {
+    background-color: #2a63ff;
+    color: #fff;
+}
+.activeName {color: #000;}
+
+.show {display: block;}
+.hide {display: none;}
