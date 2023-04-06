@@ -38,3 +38,33 @@ $(".back").click(function() {
 });
 
 //step hover states
+
+$(".step2, .step3").hover(
+
+    function() {
+        
+        if($(this).hasClass("step2")) {
+            if(!$(".num2").hasClass("activeNum")) {
+                $(".num2, .name2").toggleClass("activeName");
+            }
+        }
+        else {
+            if(!$(".num3").hasClass("activeNum")) {
+                $(".num3, .name3").toggleClass("activeName");
+            }
+        }
+    },
+    function() {
+
+        if($(this).hasClass("step2")) {
+            if(!$(".num2").hasClass("activeNum")) {
+                $(".num2, .name2").toggleClass("activeName");
+            }
+        }
+        else {
+            if(!$(".num3").hasClass("activeNum")) {
+                $(".num3, .name3").toggleClass("activeName");
+            }
+        }
+    }
+);
