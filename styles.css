@@ -1,7 +1,8 @@
+
 body {
     background-color: #82009c;
     font-family: Roboto, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -67,6 +68,7 @@ button:hover {
 
 /* utility class */
 
+.hoverColor {color: #000;}
 .activeNum {
     background-color: #2a63ff;
     color: #fff;
